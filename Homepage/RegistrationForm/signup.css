@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    margin:40px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    border: 1px solid rgb(236, 228, 228);
+    padding: 30px;
+    position: relative;
+}
+
+#icon{
+    color: white; 
+    background-color: rgb(47, 46, 46);
+    position: absolute;
+    top: 0px;
+    left: 96%;
+}
+
+.heading{
+    color: #edf2f2;
+    font-size: 26px;
+}
+
+p{
+    color: #edf2f2;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+ input {
+    background-color: transparent;
+    margin: 5px;
+    color: #edf2f2;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 1;
+    width: 300px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+ }
+
+ input[type=text]:focus, input[type=password]:focus{
+    color: white;
+ }
+ 
+
+ .error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.box{
+    line-height: 5;
+    color:#edf2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.btn{
+    color: #edeaea;
+    margin: 10px;
+    width: 340px;
+    background-color: #e24141;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(246, 14, 14);
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: #f00;
+}
+
+.btn-FB{
+    background-color: rgb(100, 100, 219);
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    width: 100px;
+    border: none;
+}
+
+.btn-G{
+    background-color: rgb(241, 97, 97);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    width: 90px;
+    border: none;
+}
+
+.btn-X{
+    background-color: rgb(86, 44, 200);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    width: 100px;
+    border: none;
+
+}
